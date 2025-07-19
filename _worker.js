@@ -1,4 +1,4 @@
-addEventListener('fetch'， event => {
+addEventListener('fetch',event => {
   const url = new URL(event.request.url);
   thisProxyServerUrlHttps = `${url.protocol}//${url.hostname}/`;
   thisProxyServerUrl_hostOnly = url.host;
