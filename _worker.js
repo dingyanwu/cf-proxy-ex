@@ -1,4 +1,4 @@
-addEventListener('fetch', event => {
+addEventListener('fetch'， event => {
   const url = new URL(event.request.url);
   thisProxyServerUrlHttps = `${url.protocol}//${url.hostname}/`;
   thisProxyServerUrl_hostOnly = url.host;
@@ -10,7 +10,7 @@ const str = "/";
 const lastVisitProxyCookie = "__PROXY_VISITEDSITE__";
 const passwordCookieName = "__PROXY_PWD__";
 const proxyHintCookieName = "__PROXY_HINT__";
-const password = "";
+const password = "ZrPamPXzjYSPL5";
 const showPasswordPage = true;
 const replaceUrlObj = "__location__yproxy__"
 const injectedJsId = "__yproxy_injected_js_id__"
